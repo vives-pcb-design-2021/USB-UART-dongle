@@ -15,6 +15,7 @@ Features:
   - [ ] Pinheaders are male 2.54 mm (0.1 inch) pitched ([Wikipedia](https://en.wikipedia.org/wiki/Pin_header))
 - [ ] The USB connector is of the USB-C type. Many variations exist. Choose the one with the `HRO_TYPE-C-31-M-12` footprint. This connector type has less pins and is hand solderable.
 - [ ] To protect the USB devices against ESD, a protection circuit is recommended. The `USBLC6-2SC6` is a cheap and good solution.
+- [ ] Use a `CP2102N` to convert the USB signal to a 3V3 UART. Please check the [datasheet](https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf) for any notes and details.
 - [ ] The resistor values for the leds need te be calculated depending on the leds you choose (eg: 20mA, 5mA, ...)
 
 ## Schematic
